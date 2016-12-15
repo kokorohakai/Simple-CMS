@@ -1,0 +1,280 @@
+body
+{
+	background: #7f7f7f;
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+table
+{
+	table-layout:fixed;
+	border-collapse:collapse;
+}
+td
+{
+	border:0px;
+	padding:0px;
+	margin:0px;
+	color:#777;
+}
+b,strong
+{
+	color:black;
+	font-size:18px;
+}
+a
+{
+	text-decoration:none;
+	color:#007;
+}
+a:hover
+{
+	color:#77A;
+}
+
+/*banner*/
+table.banner
+{
+	width:800px;
+	height:105px;
+}
+td.banner
+{
+	background:URL('img/banner.png') no-repeat;
+	text-align:right;
+	vertical-align:bottom;
+}
+a.preflink
+{
+	text-decoration:none;
+	color:white;
+	font-family:'Arial',sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+a.preflink2
+{
+	text-decoration:none;
+	color:gray;
+	font-family:'Arial',sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+
+/*master table*/
+table.mf
+{
+	width:820px;	
+}
+td.mf
+{
+	font-family:'Arial',sans-serif;
+	font-size:12px;
+	color:#777;
+	width:800px;
+	height:100%;
+}
+td.mf1
+{
+	width:10px;
+	background:URL('img/mf1.png') repeat-y;
+}
+td.mf2
+{
+	width:10px;
+	background:URL('img/mf2.png') repeat-y;
+}
+td.mf3
+{
+	height:10px;
+	width:10px;
+	background:URL('img/mf3.png') no-repeat;
+}
+td.mf4
+{
+	height:10px;
+	width:800px;
+	background:URL('img/mf4.png') repeat-x;
+}
+td.mf5
+{
+	height:10px;
+	width:10px;
+	background:URL('img/mf5.png') no-repeat;
+}
+td.footer
+{
+	height:84px;
+	width:800px;
+	background:URL('img/footer.png') no-repeat;
+	color:white;
+	text-align:center;
+	font-family:'Arial',sans-serif;
+	font-size:10px;
+}
+/*bodyframe*/
+table.bf
+{
+	height:100%;
+	width:800px;
+}
+td.bf
+{
+	height:100%;
+	width:100%;
+	background:white;
+}
+td.bf1
+{
+	width:10px;
+	height:10px;
+	background:URL('img/bf1.png') no-repeat;
+}
+td.bf2
+{
+	width:100%;
+	height:10px;
+	background:URL('img/bf2.png') repeat-x;
+}
+td.bf3
+{
+	width:10px;
+	height:10px;
+	background:URL('img/bf3.png') no-repeat;
+}
+td.bf4
+{
+	width:10px;
+	height:100%;
+	background:URL('img/bf4.png') repeat-y;
+}
+td.bf5
+{
+	width:10px;
+	height:100%;
+	background:URL('img/bf5.png') repeat-y;
+}
+td.bf6
+{
+	width:10px;
+	height:10px;
+	background:URL('img/bf6.png') no-repeat;
+}
+td.bf7
+{
+	height:10px;
+	width:100%;
+	background:URL('img/bf7.png') repeat-x;
+}
+td.bf8
+{
+	width:10px;
+	height:10px;
+	background:URL('img/bf8.png') no-repeat;
+}
+/*link frame*/
+table.links
+{
+	width:800px;
+	height:25px;
+}
+td.links1
+{
+	width:10px;
+	height:25px;
+	background:URL('img/links1.png') no-repeat;
+}
+td.links2
+{
+	width:780px;
+	height:25px;
+	background:URL('img/links2.png') repeat-x;
+}
+td.links3
+{
+	width:10px;
+	height:25px;
+	background:URL('img/links3.png') no-repeat;
+}
+/*These are here so you can see exactly what classes are automatically generated in these files.*/
+/* */
+/* */
+/* mastertable.html */
+div.banner
+{
+	
+}
+div.linkframe
+{
+}
+div.bodyframe
+{
+}
+/* linkframe.html */
+div.links
+{
+}
+/* link.html */
+div.headlink
+{
+}
+a.headlink
+{
+	text-decoration:none;
+	color:white;
+	font-family:'Arial',sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+div.headhoverlink
+{
+}
+a.headhoverlink
+{
+	text-decoration:none;
+	color:gray;
+	font-family:'Arial',sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+/* generated menu */
+div.menu
+{
+	background:#3a3a3a;
+	padding:10px;
+}
+/* menu.html */
+div.menulist
+{
+
+}
+/* menulink.html */
+div.menulink
+{
+}
+a.menulink
+{
+	text-decoration:none;
+	color:white;
+	font-family:'Arial',sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+div.menuhoverlink
+{
+}
+a.menuhoverlink
+{
+	text-decoration:none;
+	color:gray;
+	font-family:'Arial',sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+/* bodyframe.html */
+div.bodytext
+{
+	font-family:'Arial',sans-serif;
+	font-size:12px;
+	color:#777;
+}

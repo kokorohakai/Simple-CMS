@@ -1,0 +1,49 @@
+Each file has certain strings that will be replaced with the appropriate code by the CMS system.
+This is a list of those and and their class properties for decoration.  As you can see, I tried
+leaving the theme engine open for a very relaxed design environment. 
+
+mastertable.html:
+	This is the master table layout. You can use either <table> or <div> but you will need to customize it appropriately.
+	
+	<javascript> injects the javascript needed for the CMS to function.
+			class: (none)
+	<banner> a div containing the banner
+			Class: banner
+	<linkframe> a div containing the links
+			Class: linkframe
+	<bodyframe>  a div containing the bodytext
+			Class: bodyframe
+			
+	In a color filled theme. You can set any tag with class="tcolor" to change it's background color to the theme color.
+			
+banner.html
+	This is where you'll place your HTML for displaying your banner.
+	
+bodyframe.html:
+	This is just a file to add <body> to, unless you want to further design the inside of your body
+	frame.
+	<bodytext> is replaced with a div containing the file data from the CMS section or subsection.
+			class: bodytext
+			
+linkframe.html:
+	This is just a file to add <link> to, unless you want to further design the inside of your link gutter.
+	<links> is div with your style that contains the appropriate <a href=> link and text it is then given this 
+			div Class: links
+			
+link.html
+	This is how each individual link will look you will need to include <link>
+	<headlink> is an <a href=> that will display the appropriate caption per link.
+			a and div Class: headlink (on hover: headhoverlink) 
+			
+menu.html:
+	The menu is displayed relative to where the link is currently being displayed.  You can set 
+	the options "before" or "after" in the options to determine if the menu begins drawing before
+	your link, or after.  You will then want to use position:relative on your div containing your
+	list and then adjust your x and y positions. Please take a look at the default theme to see how 
+	this works.
+	<menulist> is replaced with a <div> containing a list of <a href=> links 
+			div class: menulist
+menulink.html
+	Defines how each link will look in your pop up menus.
+	<menulink>
+			a and div Class: menulink (on hover: menuhoverlink
